@@ -1,0 +1,44 @@
+
+#container {
+     display: flex;
+     margin: 100px 0px 0px 10px;
+     border-radius: 20px;
+}
+
+div {
+     width: 60px;
+     height: 60px;
+     background-color: aquamarine
+}
+
+.gridRow, .gridCol {
+     border: 1px solid black;
+}
+
+.gridRow {
+     display: flex;
+}
+
+
+body {
+     display: flex;
+     flex-direction: column;
+     gap: 1000px;
+
+}
+
+
+.buttons {
+     margin-left: 50px;
+     display: flex;
+     gap: 105px;
+     background-color: white;
+
+}
+
+button {
+     font-size: 30px;
+     border-radius: 2em;
+     padding: 15px;
+
+}
