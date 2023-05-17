@@ -8,7 +8,7 @@
 div {
      width: 60px;
      height: 60px;
-     background-color: aquamarine
+     /* background-color: aquamarine */
 }
 
 .gridRow, .gridCol {
@@ -22,23 +22,32 @@ div {
 
 body {
      display: flex;
-     flex-direction: column;
-     gap: 1000px;
-
+     gap: 600px;
+     background-color: whitesmoke;
 }
 
 
-.buttons {
-     margin-left: 50px;
-     display: flex;
-     gap: 105px;
-     background-color: white;
 
+#container {
+     align-self: flex-start;
+     margin-left: 600px;
+     justify-content: center;
+     
 }
 
 button {
      font-size: 30px;
      border-radius: 2em;
-     padding: 15px;
-
+     padding: 25px;
+     align-self: flex-start;
+     justify-content: center;
 }
+
+.buttons {
+     margin-top: 250px;;
+     display: flex;
+     flex-direction: column;
+/* background-color: orange; */
+     gap: 45px;
+}
+
